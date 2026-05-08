@@ -81,7 +81,7 @@ app.use(cors());
 app.use(express.json());
 
 // Serve admin dashboard as static files
-app.use('/admin-ui', express.static(path.join(__dirname, '../admin')));
+app.use('/admin-ui', express.static(path.join(__dirname, '../../admin')));
 
 // ── Health ────────────────────────────────────────────────────────────────────
 app.get('/health', (req, res) => {
