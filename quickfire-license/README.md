@@ -125,3 +125,4 @@ All admin routes require the header `X-Admin-Secret: <your secret>`.
 | `POST` | `/admin/delete` | Permanently delete a key |
 | `GET`  | `/admin/keys` | List all keys + events |
 | `GET`  | `/health` | Server health check |
+
